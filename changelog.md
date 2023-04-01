@@ -1,5 +1,24 @@
 # Log de cambios del proyecto
 
+## 1.2.0 - 2023-03-31
+
+### Agregado
+
+- Fragmento de Registro a Activity Main
+- ActivityMain2 para layouts dentro de la aplicación
+- Layout para Registro
+- Layour para Registrar Servicio
+- Layout para Notificaciones
+ 
+## 1.1.0 - 2023-03-30
+
+### Agregado
+
+- Fragmento de Login a Activity Main
+- ActivityMain2 para layouts dentro de la aplicación
+- Layout para Gasto Mensual
+- Layour para Calcular
+
 ## 1.0.0 - 2023-03-27
 
 ### Agregado
