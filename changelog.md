@@ -35,7 +35,7 @@
 
 ### Agregado
 
-- Archivo ui-diseñoApp.md  [ui-diseñoApp.md](https://github.com/dhidalgod18/Proyecto-Android/blob/main/ui-dise%C3%B1oApp.)
+- Archivo ui-diseñoApp.md  [ui-diseñoApp.md](https://github.com/dhidalgod18/Proyecto-Android/blob/main/ui-dise%C3%B1oApp.md)
 - Archivo Funcionalidad.md [Funcionalidad.md](https://github.com/dhidalgod18/Proyecto-Android/blob/main/Funcionalidad.md)
 - Creación de carpeta imagenes [imagenes](https://github.com/dhidalgod18/Proyecto-Android/tree/main/imagenes)
 - Subidas imágenes de mockups de UI a la carpeta images
