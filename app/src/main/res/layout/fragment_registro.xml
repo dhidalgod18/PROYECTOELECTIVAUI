@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -6,7 +8,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
 
-    tools:context=".RegistroFragment">
+    tools:context=".login.RegistroFragment">
 
     <LinearLayout
         android:id="@+id/title"
@@ -33,7 +35,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:fontFamily="@font/chewy"
-            android:text="Registro"
+            android:text="@string/registro"
             android:textSize="20sp" />
 
     </LinearLayout>
@@ -58,7 +60,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/usuario2"
-            android:layout_gravity="left"
+            android:layout_gravity="start"
             tools:ignore="ContentDescription" />
         <EditText
             android:id="@+id/txtUser"
@@ -74,7 +76,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/pass1"
-            android:layout_gravity="left"
+            android:layout_gravity="start"
             android:contentDescription="@string/password"
             tools:ignore="ContentDescription" />
         <EditText
@@ -85,7 +87,7 @@
             android:layout_gravity="top|center_horizontal"
             android:autofillHints="username"
             android:hint="@string/password"
-            android:inputType="text" />
+            android:inputType="textPassword" />
 
     </LinearLayout>
 
@@ -110,7 +112,7 @@
             />
 
         <Button
-            android:id="@+id/btnRegistrarse"
+            android:id="@+id/btnRegistro"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/azulceleste"

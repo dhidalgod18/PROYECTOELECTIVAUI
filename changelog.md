@@ -9,6 +9,9 @@
 - Layout para Registro
 - Layour para Registrar Servicio
 - Layout para Notificaciones
+
+### RESTRICCIONES
+-No se genero la conexion entre la actividad 1 que contiene el login y registro y la actividad 2 que contiene las demas funcionalidades de la aplicacion, por lo tanto para poder visualizar las dos actividades, se debe reemplazar la actividad principal en el [AndroidManifest.xml](https://github.com/dhidalgod18/PROYECTOELECTIVAUI/blob/master/app/src/main/AndroidManifest.xml)
  
 ## 1.1.0 - 2023-03-30
 
