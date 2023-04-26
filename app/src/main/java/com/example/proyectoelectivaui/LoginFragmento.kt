@@ -1,5 +1,6 @@
 package com.example.proyectoelectivaui
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -21,7 +22,8 @@ class LoginFragmento : Fragment() {
     ): View? {
         // Inflate the layout for this fragment
         //return inflater.inflate(R.layout.fragment_login_fragmento, container, false)
-        _binding = FragmentLoginFragmentoBinding.inflate(inflater, container, false)
+        this._binding = FragmentLoginFragmentoBinding.inflate(inflater, container, false)
+        this.binding.btnLogin.setOnClickListener{ login() }
         return binding.root
     }
 
@@ -37,6 +39,15 @@ class LoginFragmento : Fragment() {
         }*/
     }
 
+
+    // In Fragment 1 in Activity 1
+    fun login() {
+        val loginIntent = Intent(activity, MainActivity2::class.java)
+        loginIntent.putExtra("user", "David")
+        startActivity(loginIntent)
+
+        // VALIDAR CREDENCIALES
+    }
 
 
 }
